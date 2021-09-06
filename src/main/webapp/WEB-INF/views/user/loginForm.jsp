@@ -7,13 +7,12 @@
 <div class="container">
 	<form class="form-signin" action="/login" method="POST">
 
-		<input type="email" id="inputusername" name="username" class="form-control"
-			placeholder="아이디" required autofocus="autofocus"> 
-		<input type="password" id="inputPassword" class="form-control"
-			placeholder="비밀번호" required>
-
-		<button class="btn btn-lg btn-primary btn-block" type="submit">로그인
-			</button>
+		<input type="text" id="inputusername" name="username" class="form-control"
+			placeholder="아이디" required="required" autofocus="autofocus"> 
+		<input type="password" id="inputPassword" name="password" class="form-control"
+			placeholder="비밀번호" required="required">
+		<input type="submit" class="btn btn-lg btn-primary btn-block" value="로그인">
+		
 	</form>
 
 </div>

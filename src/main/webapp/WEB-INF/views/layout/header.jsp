@@ -19,7 +19,7 @@
 
 
 	<!-- 네브바 시작 -->
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-md  navbar-dark" style="background-color: skyblue;">
 		<a class="navbar-brand" href="#">프리덤</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#collapsibleNavbar">
